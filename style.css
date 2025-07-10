@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common style  */
+ .common-btn{
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.common-btn:hover{
+    background-color: #2c25f2;
+} 
+/* navber  */
+
+ header{
+        background-image: url(Assets/Hero-bg.png);
+
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding-top: 20px;
+}
+
+.navber{
+    color: #4E47FF;
+}
+
+/* banner style  */
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.stay-btn{
+    margin: 50px 50px;
+}
+
+/* action section  */
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 50px ;
+    
+}
+
+.left-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    
+
+    
+}
+.preview-btn{
+    margin: 10px ;
+}
+.action-title{
+    margin-top: 10px 10px;
+    font-size: 25px;
+}
+.right-slide{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+} 
+
+/* productive users section  */
+
+.user-sectio{
+    width: 800px;
+    /* height: 400px; */
+    background-color: #2c25f2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+    
+}
+.user-section-title{
+    font-size: 25px;
+}
+.flowers{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 20px;
+}
+.flower-count h1{
+    color: rgba(78, 71, 255, 1);
+    font-size:50px;
+    font-weight: 900;
+}
+.flower-count p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
