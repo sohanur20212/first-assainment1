@@ -185,3 +185,36 @@ user-subtitle{
 .focus-title{
     font-size: 60px;
 }
+
+/* Let’s Get in Touch section style */
+.signup-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px 100px;
+}
+.signup-left-slide{
+    font-size: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form label{
+    margin-bottom: 5px;
+}
+form input{
+    margin-bottom: 10px;
+}
+input[type="text"] {
+   padding: 10px;
+}
+input[type="email"] {
+   padding: 10px;
+}
+.message-btn{
+    margin-top: 20px;
+}
