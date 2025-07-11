@@ -219,3 +219,34 @@ input[type="email"] {
     margin-top: 20px;
 }
                     
+/* footer section  */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-logo{
+    font-size: 70px;
+    color: #4E47FF;
+}
+.logo-subtitle{
+    color: rgb(87, 83, 83);
+}
+.menu{
+    display: flex;
+    
+    
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.menu li:hover{
+    color: #4E47FF;
+    transition: .5s;
+}
