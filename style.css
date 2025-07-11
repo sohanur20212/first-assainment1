@@ -5,35 +5,38 @@
 
 /* common style  */
  .common-btn{
-    background-color: #4E47FF;
+    background-color: #2d26fc;
     border: none;
     color: white;
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 10px;
+    font-size: 25px;
+}
+body{
+    background-color: #becef4;
 }
 
 .common-btn:hover{
-    background-color: #2c25f2;
+    background-color: #07046e;
+    transition: .5s;
 } 
 /* navber  */
-
- header{
-        background-image: url(Assets/Hero-bg.png);
-
+.nav{
+    background-image:url(Assets/Hero-bg.png);
 }
-
 .navber{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 100px;
     padding-top: 20px;
-}
-
-.navber{
     color: #4E47FF;
 }
+.navber h1{
+    font-size: 50px;
+}
+
 
 /* banner style  */
 .banner{
@@ -41,6 +44,10 @@
     flex-direction: column;
     text-align: center;
     margin-top: 70px;
+}
+.banner h3{
+    font-size: 50px;
+    line-height: 1.5em;
 }
 
 .stay-btn{
@@ -54,7 +61,9 @@
     align-items: center;
     justify-content: center;
     gap: 200px;
-    margin: 50px ;
+    margin: 100px 0px;
+    margin-bottom: 200px;
+
     
 }
 
@@ -73,6 +82,11 @@
 .action-title{
     margin-top: 10px 10px;
     font-size: 25px;
+    font-size: 40px;
+}
+
+.action-subtitle{
+    font-size: 25px;
 }
 .right-slide{
     width: 200px;
@@ -83,17 +97,16 @@
 /* productive users section  */
 
 .user-sectio{
-    width: 800px;
-    /* height: 400px; */
-    background-color: #2c25f2;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background-color: rgba(78, 71, 255, 0.1);
+    background-color: rgba(78, 71, 255, 0.5);
     border-radius: 10px;
+    margin-bottom: 200px;
     
 }
 .user-section-title{
@@ -118,14 +131,19 @@
 /* Let’s Get In Touch Section */
 .user-info-container{
     display: flex;
-    gap: 80px;
+    gap: 50px;
+}
+.user-info{
+    background-color: rgb(214, 225, 242);
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .get-in-touch{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 100px 50px;
+    margin: 200px 50px;
 
 }
 
@@ -137,6 +155,10 @@
 .user-info{
     display: flex;
     flex-direction: column;
+}
+.user-info:hover{
+    background-color: #9cc9e4;
+    transition: .5s;
 }
 .star{
     display: flex;
@@ -151,9 +173,6 @@
     margin-bottom: 10px;
 }
 
-user-subtitle{
-
-}
 .profile{
     display: flex;
     align-items: center;
@@ -168,22 +187,28 @@ user-subtitle{
     border-radius: 50%;
     margin-right: 20px;
 }
+
+/* focus section  */
 .focus{
+    width: 900px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    /* background-color: #7d6767; */
+    background-color:rgb(214, 225, 242); 
+    border-radius: 20px;
 }
 .focus-img{
     width: 550px;
     height: 150px;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin:70px 70px;
 }
 .focus-title{
     font-size: 60px;
+    margin-top: 30px;
 }
 
 /* Let’s Get in Touch section style */
@@ -191,7 +216,7 @@ user-subtitle{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap:300px;
     margin: 100px 100px;
 }
 .signup-left-slide{
@@ -205,9 +230,12 @@ form{
 }
 form label{
     margin-bottom: 5px;
+    font-size: 20px;
 }
 form input{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
 }
 input[type="text"] {
    padding: 10px;
@@ -215,12 +243,19 @@ input[type="text"] {
 input[type="email"] {
    padding: 10px;
 }
+form textarea{
+    border: none;
+    border-radius: 10px;
+}
 .message-btn{
     margin-top: 20px;
 }
+
                     
 /* footer section  */
 footer{
+    background-color: rgb(214, 225, 242);
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,10 +264,11 @@ footer{
 }
 .footer-logo{
     font-size: 70px;
-    color: #4E47FF;
+    color: rgb(7, 4, 110);
 }
 .logo-subtitle{
     color: rgb(87, 83, 83);
+    font-size: 20px;
 }
 .menu{
     display: flex;
@@ -242,9 +278,10 @@ footer{
 
 .menu li{
     list-style: none;
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 100px;
 }
 .menu li:hover{
     color: #4E47FF;
